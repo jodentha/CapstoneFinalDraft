@@ -1,0 +1,284 @@
+
+.navbar {
+    background-color: #002469;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .navbar a:hover {
+    background-color: #8eb4ff;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: #e0ad12;
+    color: white;
+  }
+
+.navbar a.active:hover {
+    background-color: #f7df98;
+    color: black;
+  }
+
+  .navbar a.login {
+    float: right;
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .popup {
+    display: none;
+    position: absolute;
+    top: 60px;
+    bottom: auto;
+    right: 10px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="password"],
+  .form-container input[type="date"],
+  .form-container input[type="number"],
+  .createPlans input[type="text"],
+  .createPlans input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: solid;
+    border-radius: 30px;
+    background: #f1f1f1;
+  }
+
+  /*Clicking on inputs*/
+  .form-container input[type="text"]:focus,
+  .form-container input[type="password"]:focus,
+  .form-container input[type="date"]:focus,
+  .form-container input[type="number"]:focus
+  .createPlans input[type="text"]:focus,
+  .createPlans input[type="date"]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+
+  /*Buttons*/
+  .btn {
+    background-color: #002469;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background-color: #8eb4ff;
+    color: black;
+  }
+
+  .register {
+    background-color: #e0ad12;
+  }
+
+  .register:hover {
+    background-color: #f7df98;
+  }
+
+  .cancel {
+    background-color: red;
+  }
+
+  .cancel:hover {
+    background-color: #ff8073;
+  }
+
+  .check {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  table,
+  th,
+  td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin: 15px;
+    padding: 14px 16px;
+  }
+
+  th {
+    text-align: left;
+    background-color: #002469;
+    color: white;
+  }
+
+  .statsContainer .btn{
+    width: auto;
+  }
+
+  #statsForm{
+    max-height: 600px;
+    left: 10px;
+    top: 60px;
+  }
+
+  textarea{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-radius: 30px;
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+  }
+
+  .viewStudents{
+    width: 300px;
+    height: 500px;
+    top: 60px;
+    right: 20px;
+    position:absolute;
+  }
+
+  .viewStudents .playerList{
+    border: solid;
+    border-radius:30px;
+    padding: 15px;
+    height: 500px;
+    margin: 5px 0 20px 0;
+  }
+
+.PlansHeader{
+  text-align:center;
+font-size:1.5rem;
+}
+.h2{
+font-size:1.5 rem;
+color:black;
+margin: 0 auto;
+text-align:center;
+}
+.planscontainer .planTable{
+  position: relative;
+  top: 30px;
+margin:0 auto;
+}
+
+.createPlans{
+width: 300px;
+}
+#table{
+display: none;
+}
+
+ html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .hr-shadow{
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+p{
+    font-size: 1.5em;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+  .butt a{
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    border-radius: .5rem;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ img {
+    border-radius: 25%;
+  }
+  .title {
+    color: grey;
+  }
+ 
+  .heads{
+    text-align:center;
+  }
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+.index {
+    background-color: #002469;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 50em;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    white-space:nowrap;
+    overflow:hidden;
+
+  }
+@media screen and (max-width:650px){
+    .viewStudents{
+        left: 10px;
+        top: 850px;
+}
+
+}
